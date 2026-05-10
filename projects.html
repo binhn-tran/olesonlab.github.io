@@ -332,12 +332,12 @@
     }
   </style>
 
-  <!-- TOP ROW -->
   <div class="row gy-4">
 
     <!-- LEFT SIDE -->
     <div class="col-lg-4">
 
+      <!-- PROJECT INFO -->
       <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
 
         <h3>Project information</h3>
@@ -364,6 +364,24 @@
 
       </div>
 
+      <!-- SUMMARY -->
+      <div class="portfolio-description mt-4"
+        data-aos="fade-up"
+        data-aos-delay="300">
+
+        <h2>Summary</h2>
+
+        <p>
+          The CTAHR Ecosystem Accounts Dashboard is an interactive visualization tool
+          that explores fisheries exchange value data and ecosystem extents across Hawaiʻi counties.
+          The dashboard allows users to view spatial patterns on an interactive map,
+          compare trends over time, and narrow the data using filters such as year range,
+          species group, ecosystem type, dataset category, and ecosystem extents, including
+          commercial and non-commercial fisheries.
+        </p>
+
+      </div>
+
     </div>
 
     <!-- RIGHT SIDE -->
@@ -378,7 +396,8 @@
             "loop": true,
             "speed": 600,
             "autoplay": {
-              "delay": 5000
+              "delay": 5000,
+              "disableOnInteraction": false
             },
             "slidesPerView": 1,
             "pagination": {
@@ -391,51 +410,42 @@
 
         <div class="swiper-wrapper">
 
+          <!-- MAP VIEW -->
           <div class="swiper-slide">
             <img class="img-fluid"
               src="assets/img/2026_ctahr_dashboard.png"
+              alt="CTAHR Dashboard Map View">
           </div>
 
+          <!-- COMMERCIAL VIEW -->
           <div class="swiper-slide">
             <img class="img-fluid"
               src="assets/img/2026_ctahr_dashboard_commercial.png"
+              alt="CTAHR Dashboard Commercial View">
           </div>
 
+          <!-- DATA VIEW -->
           <div class="swiper-slide">
             <img class="img-fluid"
               src="assets/img/2026_ctahr_dashboard_dataview.png"
+              alt="CTAHR Dashboard Data View">
           </div>
 
+          <!-- ECOSYSTEM EXTENTS -->
           <div class="swiper-slide">
             <img class="img-fluid"
               src="assets/img/2026_ctahr_dashboard_ecosystem_extents.png"
+              alt="CTAHR Dashboard Ecosystem Extents">
           </div>
 
         </div>
 
+        <!-- PAGINATION DOTS -->
         <div class="swiper-pagination"></div>
 
       </div>
 
     </div>
-
-  </div>
-
-  <!-- SUMMARY BELOW -->
-  <div class="portfolio-description mt-4"
-    data-aos="fade-up"
-    data-aos-delay="300">
-
-    <h2>Summary</h2>
-
-    <p>
-      The CTAHR Ecosystem Accounts Dashboard is an interactive visualization tool
-      that explores fisheries exchange value data and ecosystem extents across Hawaiʻi counties.
-      The dashboard allows users to view spatial patterns on an interactive map,
-      compare trends over time, and narrow the data using filters such as year range,
-      species group, ecosystem type, dataset category, and ecosystem extents, including
-      commercial and non-commercial fisheries.
-    </p>
 
   </div>
 
