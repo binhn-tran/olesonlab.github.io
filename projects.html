@@ -320,33 +320,17 @@
 <!-- CTAHR Dashboard Details Section -->
 <div id="ctahr" class="container" data-aos="fade-up" data-aos-delay="100">
 
-  <style>
-    #ctahr .portfolio-details-slider img {
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-
-    #ctahr .swiper-slide {
-      text-align: center;
-    }
-  </style>
-
   <div class="row gy-4">
 
     <!-- LEFT SIDE -->
     <div class="col-lg-4">
 
-      <!-- PROJECT INFO -->
       <div class="portfolio-info" data-aos="fade-up" data-aos-delay="200">
-
         <h3>Project information</h3>
 
         <ul>
           <li><strong>Category</strong>: Fisheries & Ecosystem Extents</li>
-
           <li><strong>Institution</strong>: University of Hawaiʻi at Manoa CTAHR</li>
-
           <li><strong>Project date</strong>: 2026</li>
 
           <li>
@@ -361,14 +345,9 @@
             Micaiah Cape, Pelita Felicitas, Dominic Molina, and Binh Tran
           </li>
         </ul>
-
       </div>
 
-      <!-- SUMMARY -->
-      <div class="portfolio-description mt-4"
-        data-aos="fade-up"
-        data-aos-delay="300">
-
+      <div class="portfolio-description" data-aos="fade-up" data-aos-delay="300">
         <h2>Summary</h2>
 
         <p>
@@ -379,7 +358,6 @@
           species group, ecosystem type, dataset category, and ecosystem extents, including
           commercial and non-commercial fisheries.
         </p>
-
       </div>
 
     </div>
@@ -399,7 +377,7 @@
               "delay": 5000,
               "disableOnInteraction": false
             },
-            "slidesPerView": 1,
+            "slidesPerView": "auto",
             "pagination": {
               "el": ".swiper-pagination",
               "type": "bullets",
@@ -408,39 +386,26 @@
           }
         </script>
 
-        <div class="swiper-wrapper">
+        <div class="swiper-wrapper align-items-center">
 
-          <!-- MAP VIEW -->
           <div class="swiper-slide">
-            <img class="img-fluid"
-              src="assets/img/2026_ctahr_dashboard.png"
-              alt="CTAHR Dashboard Map View">
+            <img src="assets/img/2026_ctahr_dashboard.png" alt="CTAHR Dashboard Map View">
           </div>
 
-          <!-- COMMERCIAL VIEW -->
           <div class="swiper-slide">
-            <img class="img-fluid"
-              src="assets/img/2026_ctahr_dashboard_commercial.png"
-              alt="CTAHR Dashboard Commercial View">
+            <img src="assets/img/2026_ctahr_dashboard_commercial.png" alt="CTAHR Dashboard Commercial View">
           </div>
 
-          <!-- DATA VIEW -->
           <div class="swiper-slide">
-            <img class="img-fluid"
-              src="assets/img/2026_ctahr_dashboard_dataview.png"
-              alt="CTAHR Dashboard Data View">
+            <img src="assets/img/2026_ctahr_dashboard_dataview.png" alt="CTAHR Dashboard Data View">
           </div>
 
-          <!-- ECOSYSTEM EXTENTS -->
           <div class="swiper-slide">
-            <img class="img-fluid"
-              src="assets/img/2026_ctahr_dashboard_ecosystem_extents.png"
-              alt="CTAHR Dashboard Ecosystem Extents">
+            <img src="assets/img/2026_ctahr_dashboard_ecosystem_extents.png" alt="CTAHR Dashboard Ecosystem Extents">
           </div>
 
         </div>
 
-        <!-- PAGINATION DOTS -->
         <div class="swiper-pagination"></div>
 
       </div>
